@@ -4,6 +4,10 @@
         <title>포켓몬 도감</title>
         <meta charset="utf-8" name="pokemon, 포켓몬">
         <style>
+            body{
+                margin: 0;
+                background-color: snow;
+            }
             a{
                 color: black;
                 text-decoration: none;
@@ -11,42 +15,52 @@
             a:hover{
                 color:#48BAE4;
             }
+            #main{
+                border:rgb(40, 19, 175) 1px solid;
+                text-align: center;
+                padding: 10px 0px;
+                height: 80px;
+            }
         </style>
     </head>
 
-    <body style="margin: 0; background-color: gold">
-        <div style="border-bottom: 1px solid #48BAE4; height: auto; width: 300px; margin: auto; text-align: center;width: auto;">
+    <body>
+        <div id="main">
         <h1><a href="index.html">관동 포켓몬</a></h1>
         </div>
 
-        <ol style="border: 12px solid gray; width: 100px;">
-            <li><a href="1.html">이상해씨</a></li>
-            <li><a href="2.html">파이리</a></li>
-            <li><a href="3.html">꼬부기</a></li>
-        </ol>
+        <grid style="grid-template-columns: 150px 1fr; display: grid">
+            <div style="border-bottom: sandybrown 1px solid; width: 150px;">
+            <ol>
+                <li><a href="1.html">이상해씨</a></li>
+                <li><a href="2.html">파이리</a></li>
+                <li><a href="3.html">꼬부기</a></li>
+            </ol>
+            </div>
 
-        <div style="width:100px">
-        <h2>포켓몬이란 무엇인가?</h2>
-        뺨의 양쪽에 작은 <strong>전기</strong> <u>주머니</u>가 있다. 위기 상황일 때 방전한다.
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jExIgh2pkhs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <h2>관동 속성별 포켓몬 분류</h2>
-        <table align="center" style="width:100%">
-            <tr style="background-color: lightgray">
-                <th colspan="2">불</th>
-                <th>물</th>
-                <th>풀</th>
-            </tr>
-            <tr>
-                <td colspan="2">파이리</td>
-                <td>꼬부기</td>
-                <td rowspan="2">이상해씨</td>
-            </tr>
-            <tr>
-                <td>리자드</td>
-                <td>어니부기</td>
-                <td>이상해풀</td>
-            </tr>
-        </table>
+            <div>
+            <h2>포켓몬이란 무엇인가?</h2>
+            뺨의 양쪽에 작은 <strong>전기</strong> <u>주머니</u>가 있다. 위기 상황일 때 방전한다.
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jExIgh2pkhs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <h2>관동 속성별 포켓몬 분류</h2>
+            <table align="center" style="width:100%">
+                <tr style="background-color: lightgray">
+                    <th colspan="2">불</th>
+                    <th>물</th>
+                    <th>풀</th>
+                </tr>
+                <tr>
+                    <td colspan="2">파이리</td>
+                    <td>꼬부기</td>
+                    <td rowspan="2">이상해씨</td>
+                </tr>
+                <tr>
+                    <td>리자드</td>
+                    <td>어니부기</td>
+                    <td>이상해풀</td>
+                </tr>
+            </table>
+        </grid>
         <iframe src="https://www.naver.com" style="width:100%" height="300px" frameborder="0"></iframe>
         </div>
         <div style="width:600px; height:600p; background:cyan; padding:0;">
@@ -89,5 +103,16 @@
                     <source src="assets/video/Wildlife.webm" type="video/webm">
                     <source src="Pokemon20thAnniversarySYMPHONY.3gp" type="video/webm">
                   </video>
+                  <div style="grid-template-columns: auto auto auto;">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                      </div> 
     </body>
 </html>
