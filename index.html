@@ -16,10 +16,18 @@
                 color:#48BAE4;
             }
             #main{
-                border:rgb(40, 19, 175) 1px solid;
+                border-bottom:rgb(40, 19, 175) 1px solid;
                 text-align: center;
                 padding: 10px 0px;
                 height: 80px;
+            }
+            #sub{
+                border-right: 1px solid green;
+                grid-template-columns: 150px 1fr;
+                display: grid;
+                padding-left: 0;
+                width: 150px;
+
             }
         </style>
     </head>
@@ -28,9 +36,8 @@
         <div id="main">
         <h1><a href="index.html">관동 포켓몬</a></h1>
         </div>
-
-        <grid style="grid-template-columns: 150px 1fr; display: grid">
-            <div style="border-bottom: sandybrown 1px solid; width: 150px;">
+        <grid id="sub">
+            <div>
             <ol>
                 <li><a href="1.html">이상해씨</a></li>
                 <li><a href="2.html">파이리</a></li>
