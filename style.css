@@ -38,6 +38,8 @@ ol {
 }
 
 #pokemonList {
-  border-bottom: solid 1px green;
-  width: 150px;
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  text-decoration-color: white;
 }
