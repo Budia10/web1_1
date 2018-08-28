@@ -34,4 +34,10 @@ ol {
 
 #article {
   padding-left: 33px;
+  border-left: 2px solid gray;
+}
+
+#pokemonList {
+  border-bottom: solid 1px green;
+  width: 150px;
 }
