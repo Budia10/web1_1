@@ -1,29 +1,74 @@
+<!doctype html>
 <html>
-<head>
-    <body>
-        
-    </body>
-</head>
-</html>
-
-<!DOCTYPE html>
-<html lang="ko">
 
 <head>
-  <meta charset="UTF-8">
-  <title>HTML Lists</title>
+  <title>관동 포켓몬</title>
+  <meta charset="utf-8" name="pokemon, 포켓몬">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h1><a href="index.html">관동 포켓몬</a></h1>
+  <div id="grid">
+    <!--
+    <ol>
+      <li><a href="1.html">이상해씨</a></li>
+      <li><a href="2.html">파이리</a></li>
+      <li><a href="3.html">꼬부기</a></li>
+    </ol>
+    -->
+    <table id="pokemonList">
+      <!--
+      <tr style="background-color:#80BB1D;">
+        <th>No.</th>
+        <th colspan="2">포켓몬</th>
+      </tr>
+      -->
+      <tr>
+        <td>001</td>
+        <td><img src="Pokemon_icon/Pokemon_icon_001.png"></td>
+        <td><a href="1.html">이상해씨</a></td>
+      </tr>
+      <tr>
+        <td>004</td>
+        <td><img src="Pokemon_icon/Pokemon_icon_002.png"></td>
+        <td><a href="2.html">파이리</a></td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td><img src="Pokemon_icon/Pokemon_icon_003.png"></td>
+        <td><a href="3.html">꼬부기</a></td>
+      </tr>
+      <tr>
+        <td>133</td>
+        <td><img src="Pokemon_icon/Pokemon_icon_133.png"></td>
+        <td><a href="133.html">이브이</a></td>
+      </tr>
+    </table>
 
-  <h1>정의 리스트</h1>
-  <dl>
-    <dt>호박</dt>
-    <dd>- 박과의 한해살이 덩굴성 채소</dd>
-    <dt>상추</dt>
-    <dd>- 국화과의 한해살이 또는 두해살이풀</dd>
-  </dl>
 
+    <div id="article">
+      <h2>포켓몬이란 무엇인가?</h2>
+      <p><q cite="https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%BC%93%EB%AA%AC%EC%8A%A4%ED%84%B0">《포켓몬스터》(일본어: ポケットモンスター 포켓토몬스타[*],
+          Pokémon) 또는 그 줄임말인 포켓몬(일본어: ポケモン 포케몬[*])은 닌텐도에서 제작한 게임 시리즈와 이 게임 시리즈를 원작으로한 애니메이션 시리즈, 카드 게임 시리즈등의 다양한 상품군을 뜻한다.
+          포켓몬스터라는 이름은 주머니속의 괴물, 즉 몬스터볼에 넣어서 주머니에 간편하게 휴대하고 다닐 수 있는 몬스터를 뜻한다.그리고 동시에 게임보이, 닌텐도 DS, 닌텐도 3DS 등을 통해 실제로 들고 다닐
+          수 있는 게임을 뜻하기도 한다.
+        </q></p>
+      <!-- 스위치 포켓몬 렛츠 고 영상
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jExIgh2pkhs" frameborder="0" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
+      -->
+      <audio src="Pokemon 20th Anniversary SYMPHONY!.mp3" controls autoplay type="audio/mpeg"></audio>
+      <audio src="Trickster Online OST  Rose Garden (Day) [EXTENDED].mp3" controls type="audio/mpeg"></audio>
+      <!-- 이니스프리 블루베리 선크림 영상  
+      <video width="640" height="360" controls>
+        <source src="ㅁㄴㅇㅁㄴㅇ.mp4" type="video/mp4">
+        <source src="assets/video/Wildlife.webm" type="video/webm">
+        <source src="Pokemon20thAnniversarySYMPHONY.3gp" type="video/webm">
+      </video>
+      -->
+    </div>
+  </div>
 </body>
 
 </html>
