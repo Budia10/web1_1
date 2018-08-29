@@ -42,4 +42,14 @@ ol {
   height: 10px;
   text-align: center;
   text-decoration-color: white;
+  border: 5px solid firebrick;
 }
+
+.articleTitle{
+  text-align: center;
+}
+/*
+.pokemonMainImage{
+  width: 70px;
+}
+*/

@@ -1,57 +1,10 @@
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="test.css">
-</head>
-<table class="number-table">
-  <caption class="readable-hidden">정아람의 고등학교 전 학년 성적표</caption>
-  <colgroup>
-    <col width="25%">
-    <!-- (X) html5 이전에 작성하던 방식입니다. 지양하도록 합니다. -->
-    <col style="width:25%;">
-    <!-- (O) Style Attribute를 이용해 적어주거나 -->
-    <col class="table-cell-1of4" span="2">
-    <!-- (O) Class를 지정해서 스타일을 입혀줍니다. -->
-  </colgroup>
-  <thead>
-    <tr>
-      <th scope="col">학년</th>
-      <th scope="col">1학년</th>
-      <th scope="col">2학년</th>
-      <th scope="col">3학년</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">국어</th>
-      <td>100</td>
-      <td>90</td>
-      <td>100</td>
-    </tr>
-    <tr>
-      <th scope="row">영어</th>
-      <td>80</td>
-      <td>90</td>
-      <td>80</td>
-    </tr>
-    <tr>
-      <th scope="row">수학</th>
-      <td>70</td>
-      <td>80</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th scope="row">역사</th>
-      <td>90</td>
-      <td>100</td>
-      <td>90</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row">평균</th>
-      <td>85</td>
-      <td>90</td>
-      <td>85</td>
-    </tr>
-  </tfoot>
-</table>
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="http://jsonplaceholder.typicode.com/users" method="get">
+      ID: <input type="text" name="id"><br>
+      username: <input type="text" name="username" value="Bret"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
